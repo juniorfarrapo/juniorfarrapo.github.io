@@ -847,7 +847,7 @@
 
 
                                                                     <div id="contact-status"></div>
-
+                                                                    <!--
                                                                     <form action="" id="contactform">
                                                                         <p class="form-group" id="contact-name">
                                                                             <label for="name">Nome</label>
@@ -863,12 +863,19 @@
                                                                             <textarea name="message" cols="88" rows="6" class="form-control message-contact" id="inputError" placeholder="Mensagem..."></textarea>
                                                                         </p>
                                                                         <input type="reset" name="reset" value="LIMPAR" class="reset">
-                                                                        <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
+                                                                        <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">
 
                                                                         <section class="button-demo" style="display: inline-block;">
                                                                             <button class="ladda-button submit send_email" name="submit" data-color="green" data-style="expand-left">ENVIAR</button>
                                                                         </section>
 
+                                                                    </form>-->
+
+                                                                    <form method="POST" action="https://formspree.io/raimundo@pm.me">
+                                                                        <input name="name" placeholder="Nome..." type="text">
+                                                                        <input name="email" placeholder="E-mail..." type="email">
+                                                                        <textarea name="message" placeholder="Mensagem..."></textarea>
+                                                                        <button type="submit">Enviar</button>
                                                                     </form>
                                                                 </div>
                                                                 <!-- /Contact Form -->
